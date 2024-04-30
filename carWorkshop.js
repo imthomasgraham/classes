@@ -104,10 +104,6 @@ class Car {
   }
 }
 
-const carContainer = document.createElement("div");
-carContainer.id = "car-container";
-document.body.appendChild(carContainer);
-
 const BMW = new Car("BMW");
 const Mercedes = new Car("Mercedes");
 const Lamborghini = new Car("Lamborghini");
