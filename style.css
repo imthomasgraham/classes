@@ -1,0 +1,32 @@
+.car {
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  background-color: #f0f0f0;
+}
+
+.car h2 {
+  margin-top: 0;
+}
+
+.car p {
+  margin: 5px 0;
+}
+
+.car button {
+  display: block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.car button:hover {
+  background-color: #45a049;
+}
